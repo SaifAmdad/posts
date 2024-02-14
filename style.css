@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f8f1e7;
+}
+.sticky {
+  font-family: "Times New Roman", Times, serif;
+  color: #283535;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  background-color: #cae8ca;
+  margin-bottom: 20px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.post-card {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  width: 100%;
+  border: 2px solid #bdbbbbdb;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+.post-card:hover {
+  box-shadow: 0 8px 16px 0 #8e8d8def;
+}
+.identity {
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 #6d6a6a;
+  padding: 10px 15px;
+}
+.id {
+  width: 50px;
+  height: 50px;
+  background-color: #1181e3;
+  color: white;
+  font-size: large;
+  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: #283535 2px solid;
+  margin-right: 10px;
+}
+.user-id {
+  font-weight: bolder;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: capitalize;
+  color: #1181e3;
+}
+.post-title {
+  padding: 10px 20px 5px 20px;
+  text-transform: capitalize;
+}
+hr {
+  color: #b5b1b1;
+  box-shadow: 0 1px 2px 0 #474545;
+}
+.post-body {
+  padding: 5px 20px;
+}
+.post-body::first-letter {
+  text-transform: uppercase;
+}
